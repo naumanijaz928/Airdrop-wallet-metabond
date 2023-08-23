@@ -1,0 +1,63 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sortSelect {
+  display: flex;
+  align-items: center;
+}
+.MainHeading {
+  align-items: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #282828;
+}
+
+.colorBtn,
+.addnew {
+  border: none;
+  outline: none;
+  padding: 18px 28px;
+  width: 181px;
+  height: 57px;
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0px 6px 10px rgba(64, 55, 55, 0.1);
+  border-radius: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fff;
+  margin-left: 20px;
+}
+.simpleBtn,
+.loginBtn {
+  border: 1px solid #ff56f6;
+  outline: none;
+  background: none;
+  padding: 18px 28px;
+  width: 181px;
+  height: 57px;
+  border-radius: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ff56f6;
+  margin-left: 10px;
+}
